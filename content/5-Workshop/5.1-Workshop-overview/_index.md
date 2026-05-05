@@ -1,18 +1,26 @@
 ---
 title : "Introduction"
-date : 2024-01-01 
-weight : 1 
+date : 2026-07-04 
+weight : 1
 chapter : false
 pre : " <b> 5.1. </b> "
 ---
 
-#### VPC endpoints
-+ **VPC endpoints** are virtual devices. They are horizontally scaled, redundant, and highly available VPC components. They allow communication between your compute resources and AWS services without imposing availability risks.
-+ Compute resources running in VPC can access  **Amazon S3**  using a Gateway endpoint. PrivateLink interface endpoints can be used by compute resources running in VPC or on-premises.
+#### Introduction to Web Architecture on AWS Cloud
 
-#### Workshop overview
-In this workshop, you will use two VPCs. 
-+ **"VPC Cloud"** is for cloud resources such as a  **Gateway endpoint** and an EC2 instance to test with. 
-+ **"VPC On-Prem"** simulates an on-premises environment such as a factory or corporate datacenter. An EC2 instance running strongSwan VPN software has been deployed in "VPC On-prem" and automatically configured to establish a Site-to-Site VPN tunnel with AWS Transit Gateway. This VPN simulates connectivity from an on-premises location to the AWS cloud. To minimize costs, only one VPN instance is provisioned to support this workshop. When planning VPN connectivity for your production workloads, AWS recommends using multiple VPN devices for high availability.
++ The Project Management Dashboard is a comprehensive web application based on a 3-tier architecture: Frontend, Backend, and Database. 
++ Instead of running entirely on a single server, this system leverages the AWS service ecosystem to ensure scalability, security, and high availability. Key components include: AWS EC2, AWS RDS, AWS Cognito, AWS S3, AWS Lambda, and AWS Amplify. Decoupling these services enables flexible management and performance optimization for specific, specialized tasks.
 
+#### Workshop Overview
+In this workshop, you will practice the process of migrating and deploying the entire application from a local environment (personal computer) to the AWS cloud. The deployment process will revolve around two main environments:
+
++ **"Local Environment"**: Where you set up the project source code using Next.js (Client) and Node.js (Server), test the user interface, and connect to a local PostgreSQL database. 
++ **"Cloud Environment (AWS)"**: Simulates the actual operational environment (Production). Here, you will step-by-step provision and configure core AWS services:
+    - **AWS RDS (PostgreSQL)**: A cloud database for storing project, user, and task data.
+    - **AWS EC2**: A virtual server acting as the computing environment to run the Backend API (Node.js) for processing system logic.
+    - **AWS Cognito**: An identity management service responsible for login, sign-up flows, and user session security.
+    - **AWS S3**: Static storage space for media files (e.g., avatar images, attachments).
+    - **AWS Amplify**: A hosting and automated delivery platform for deploying the Frontend source code (Next.js) to the public internet.
+
+The ultimate goal is to seamlessly connect the Frontend (on AWS Amplify) with the Backend (on EC2) and the Database (on RDS), ensuring the entire system operates perfectly and is publicly accessible.
 ![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.png)

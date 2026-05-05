@@ -1,19 +1,26 @@
 ---
 title : "Giới thiệu"
-date : 2024-01-01 
+date : 2026-07-04 
 weight : 1
 chapter : false
 pre : " <b> 5.1. </b> "
 ---
 
-#### Giới thiệu về VPC Endpoint
+#### Giới thiệu về Kiến trúc Web trên đám mây AWS
 
-+ Điểm cuối VPC (endpoint) là thiết bị ảo. Chúng là các thành phần VPC có thể mở rộng theo chiều ngang, dự phòng và có tính sẵn sàng cao. Chúng cho phép giao tiếp giữa tài nguyên điện toán của bạn và dịch vụ AWS mà không gây ra rủi ro về tính sẵn sàng.
-+ Tài nguyên điện toán đang chạy trong VPC có thể truy cập Amazon S3 bằng cách sử dụng điểm cuối Gateway. Interface Endpoint  PrivateLink có thể được sử dụng bởi tài nguyên chạy trong VPC hoặc tại TTDL.
++ Hệ thống Quản lý dự án (Project Management Dashboard) là một ứng dụng Web toàn diện bao gồm 3 lớp (3-tier architecture): Frontend, Backend và Database. 
++ Thay vì chạy toàn bộ trên một máy chủ đơn lẻ, hệ thống này tận dụng hệ sinh thái các dịch vụ của AWS để đảm bảo tính mở rộng, khả năng bảo mật và tính sẵn sàng cao. Các thành phần chính bao gồm: AWS EC2, AWS RDS, AWS Cognito, AWS S3, AWS Lambda và AWS Amplify. Việc phân tách các dịch vụ giúp quản lý linh hoạt và tối ưu hóa hiệu suất cho từng tác vụ chuyên biệt.
 
 #### Tổng quan về workshop
-Trong workshop này, bạn sẽ sử dụng hai VPC.
-+ **"VPC Cloud"** dành cho các tài nguyên cloud như Gateway endpoint và EC2 instance để kiểm tra.
-+ **"VPC On-Prem"** mô phỏng môi trường truyền thống như nhà máy hoặc trung tâm dữ liệu của công ty. Một EC2 Instance chạy phần mềm StrongSwan VPN đã được triển khai trong "VPC On-prem" và được cấu hình tự động để thiết lập đường hầm VPN Site-to-Site với AWS Transit Gateway. VPN này mô phỏng kết nối từ một vị trí tại TTDL (on-prem) với AWS cloud. Để giảm thiểu chi phí, chỉ một phiên bản VPN được cung cấp để hỗ trợ workshop này. Khi lập kế hoạch kết nối VPN cho production workloads của bạn, AWS khuyên bạn nên sử dụng nhiều thiết bị VPN để có tính sẵn sàng cao.
+Trong workshop này, bạn sẽ thực hành quá trình chuyển đổi và triển khai toàn bộ ứng dụng từ môi trường máy cá nhân (Local) lên đám mây AWS. Quá trình triển khai sẽ xoay quanh hai môi trường chính:
 
++ **"Môi trường Local"**: Nơi bạn thiết lập mã nguồn dự án bằng Next.js (Client) và Node.js (Server), chạy thử nghiệm giao diện và kết nối với cơ sở dữ liệu PostgreSQL cục bộ. 
++ **"Môi trường Cloud (AWS)"**: Mô phỏng môi trường vận hành thực tế (Production). Tại đây, bạn sẽ từng bước khởi tạo và cấu hình các dịch vụ AWS cốt lõi:
+    - **AWS RDS (PostgreSQL)**: Cơ sở dữ liệu đám mây lưu trữ dữ liệu dự án, người dùng và công việc.
+    - **AWS EC2**: Máy chủ ảo đóng vai trò chạy Backend API (Node.js) để xử lý logic hệ thống.
+    - **AWS Cognito**: Dịch vụ quản lý danh tính, chịu trách nhiệm cho luồng đăng nhập, đăng ký và bảo mật phiên người dùng.
+    - **AWS S3**: Không gian lưu trữ tĩnh dành cho các tệp phương tiện (ví dụ: hình ảnh avatar, tệp đính kèm).
+    - **AWS Amplify**: Nền tảng lưu trữ và phân phối tự động mã nguồn Frontend (Next.js) ra môi trường mạng công cộng.
+
+Mục tiêu cuối cùng là kết nối thông suốt Frontend (trên AWS Amplify) với Backend (trên EC2) và Database (trên RDS), đảm bảo toàn bộ hệ thống hoạt động hoàn hảo và có thể truy cập public.
 ![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.png)

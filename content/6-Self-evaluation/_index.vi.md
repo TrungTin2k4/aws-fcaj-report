@@ -1,40 +1,43 @@
 ---
 title: "Tự đánh giá"
-date: 2024-01-01
+date: 2026-07-08
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+Trong suốt khóa thực tập tại **FCAJ Cloud Journey** diễn ra từ **04/05/2026** đến **08/07/2026**, tôi đã có dịp trải nghiệm quá trình từ việc nắm bắt các nền tảng AWS cơ bản thông qua workshop cho đến khi tự tay triển khai một dự án full-stack thực tế. Hành trình này không đơn thuần chỉ là việc làm quen với các dịch vụ độc lập trên Cloud, mà quan trọng hơn, nó đã rèn luyện cho tôi tư duy kết hợp các công nghệ đó thành một kiến trúc hoàn chỉnh, từ khâu triển khai, vận hành cho đến việc lập báo cáo chi tiết.
 
-Trong suốt thời gian thực tập tại **[Tên công ty/tổ chức]** từ **[ngày bắt đầu]** đến **[ngày kết thúc]**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
-Tôi đã tham gia **[mô tả ngắn gọn dự án hoặc công việc chính]**, qua đó cải thiện kỹ năng **[liệt kê kỹ năng: lập trình, phân tích, viết báo cáo, giao tiếp…]**.  
+### Những mặt đã làm tốt
 
-Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nội quy, và tích cực trao đổi với đồng nghiệp để nâng cao hiệu quả công việc.
+- Tôi đã nhanh chóng tiếp thu và áp dụng thành thạo các dịch vụ cốt lõi của AWS (như VPC, EC2, RDS, S3, IAM, Cognito) vào luồng công việc thực tế.
+- Tôi luôn duy trì nhịp độ học tập và thực hành ổn định, đặc biệt trong những thời điểm đòi hỏi sự kết hợp giữa viết code và thiết lập hạ tầng.
+- Tinh thần chủ động giải quyết vấn đề được nâng cao: tôi tự tìm hiểu tài liệu, phân tích log và thử nghiệm nhiều phương án trước khi cần đến sự trợ giúp, giúp kỹ năng gỡ lỗi (debug) tiến bộ đáng kể.
+- Khả năng viết tài liệu và làm báo cáo (workshop/report) được rèn luyện tốt, thể hiện qua sự tỉ mỉ và rõ ràng trong cách trình bày.
 
-Để phản ánh một cách khách quan quá trình thực tập, tôi xin tự đánh giá bản thân dựa trên các tiêu chí dưới đây:
+### Đánh giá năng lực cá nhân
 
+| Nhóm năng lực | Mức tự đánh giá | Ghi chú ngắn |
+| --- | --- | --- |
+| Nền tảng kỹ thuật | Tốt | Hiểu rõ chức năng và cách thức tích hợp của các dịch vụ AWS trong dự án. |
+| Khả năng tự học | Tốt | Nắm bắt nhanh nội dung workshop và linh hoạt áp dụng vào bài toán thực tế. |
+| Tinh thần chủ động | Khá | Có ý thức tự mày mò, tự giải quyết vấn đề dù đôi khi cần thêm thời gian để tìm ra giải pháp tối ưu nhất. |
+| Kỹ năng giao tiếp | Khá | Khả năng báo cáo tiến độ ổn, nhưng cần mạnh dạn hơn khi đưa ra quan điểm cá nhân trong nhóm. |
+| Kỹ năng viết tài liệu | Tốt | Hoàn thành tốt các phần worklog, báo cáo và workshop với cấu trúc mạch lạc, dễ hiểu. |
+| Tư duy giải quyết vấn đề | Khá | Linh hoạt hơn trong việc cấu hình mạng, xử lý bảo mật và tích hợp API. |
 
-| STT | Tiêu chí                            | Mô tả                                                                                            | Tốt | Khá | Trung bình |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | --- | --- | ---------- |
-| 1   | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về ngành, áp dụng kiến thức vào thực tế, kỹ năng sử dụng công cụ, chất lượng công việc | ✅   | ☐   | ☐          |
-| 2   | **Khả năng học hỏi**                | Tiếp thu kiến thức mới, học hỏi nhanh                                                            | ☐   | ✅   | ☐          |
-| 3   | **Chủ động**                        | Tự tìm hiểu, nhận nhiệm vụ mà không chờ chỉ dẫn                                                  | ✅   | ☐   | ☐          |
-| 4   | **Tinh thần trách nhiệm**           | Hoàn thành công việc đúng hạn, đảm bảo chất lượng                                                | ✅   | ☐   | ☐          |
-| 5   | **Kỷ luật**                         | Tuân thủ giờ giấc, nội quy, quy trình làm việc                                                   | ☐   | ☐   | ✅          |
-| 6   | **Tính cầu tiến**                   | Sẵn sàng nhận feedback và cải thiện bản thân                                                     | ☐   | ✅   | ☐          |
-| 7   | **Giao tiếp**                       | Trình bày ý tưởng, báo cáo công việc rõ ràng                                                     | ☐   | ✅   | ☐          |
-| 8   | **Hợp tác nhóm**                    | Làm việc hiệu quả với đồng nghiệp, tham gia nhóm                                                 | ✅   | ☐   | ☐          |
-| 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng đồng nghiệp, đối tác, môi trường làm việc                                              | ✅   | ☐   | ☐          |
-| 10  | **Tư duy giải quyết vấn đề**        | Nhận diện vấn đề, đề xuất giải pháp, sáng tạo                                                    | ☐   | ✅   | ☐          |
-| 11  | **Đóng góp vào dự án/tổ chức**      | Hiệu quả công việc, sáng kiến cải tiến, ghi nhận từ team                                         | ✅   | ☐   | ☐          |
-| 12  | **Tổng thể**                        | Đánh giá chung về toàn bộ quá trình thực tập                                                     | ✅   | ☐   | ☐          |
+### Những bước tiến nổi bật
 
-### Cần cải thiện
+- Từ bỏ thói quen "làm vẹt" theo hướng dẫn, chuyển sang tư duy phân tích để hiểu sâu nguyên lý hoạt động của từng dịch vụ.
+- Thành thạo hơn trong việc đối chiếu giữa môi trường local và cloud, cũng như biết cách khoanh vùng lỗi qua việc đọc log.
+- Trưởng thành hơn trong tư duy phát triển sản phẩm: không chỉ dừng lại ở việc code chạy được, mà còn chú trọng đến tính bảo mật, khả năng mở rộng và tối ưu chi phí.
 
-* Nâng cao tính kỹ luật, chấp hành nghiêm chỉnh nội quy của công ty hoặc bất kỳ trong một tổ chức nào
-* Cải thiện trong cách tư duy giải quyết vấn đề
-* Học cách giao tiếp tốt hơn trong giao tiếp hằng ngày và trong công việc, xử lý tình huống
+### Những mặt cần khắc phục
+
+- Rèn luyện thêm sự tự tin khi giao tiếp, trình bày và bảo vệ các quyết định kỹ thuật trước các thành viên khác.
+- Tối ưu hóa thời gian xử lý sự cố (troubleshooting) bằng cách rèn luyện kỹ năng đọc log và phân tích nguyên nhân gốc rễ nhanh hơn.
+- Mở rộng kiến thức chuyên sâu về quy trình CI/CD, giám sát hệ thống (monitoring) và các tiêu chuẩn bảo mật cho môi trường Production.
+
+### Tổng kết
+
+Khóa thực tập vừa qua là một bước đệm quan trọng giúp tôi hoàn thiện cả về chuyên môn lẫn kỹ năng mềm. Mặc dù vẫn còn những điểm cần khắc phục, nhưng nhìn chung, tôi tự hào về những gì mình đã làm được trong việc tự học, tự triển khai dự án và xây dựng tài liệu bài bản, đáp ứng tốt các yêu cầu khắt khe của môi trường làm việc chuyên nghiệp.

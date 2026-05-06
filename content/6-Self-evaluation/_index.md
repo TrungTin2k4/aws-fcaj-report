@@ -1,39 +1,43 @@
 ---
-title: "Self-Assessment"
-date: 2024-01-01
+title: "Self-evaluation"
+date: 2026-07-08
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+During my internship at **FCAJ Cloud Journey** from **04/05/2026** to **08/07/2026**, I had the valuable opportunity to progress from learning fundamental AWS concepts through workshops to practically deploying a full-stack project. This journey was not just about getting familiar with individual cloud services; more importantly, it trained me to integrate these services into a comprehensive, robust architecture, covering everything from deployment and operations to detailed documentation.
 
-During my internship at **[Company/Organization Name]** from **[start date]** to **[end date]**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
-I participated in **[briefly describe the main project or task]**, through which I improved my skills in **[list skills: programming, analysis, reporting, communication, etc.]**.  
+### What I Did Well
 
-In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
+- I quickly grasped and effectively applied core AWS services (such as VPC, EC2, RDS, S3, IAM, and Cognito) to a real-world deployment workflow.
+- I maintained a consistent pace of learning and project execution, especially during phases that required simultaneous coding and infrastructure configuration.
+- I demonstrated a proactive approach to problem-solving by independently researching documentation, analyzing logs, and testing multiple solutions before seeking help, which significantly improved my debugging skills.
+- My technical writing and documentation skills were well-honed, evidenced by the thoroughness and clarity of my workshops and reports.
 
-To objectively reflect on my internship period, I would like to evaluate myself based on the following criteria:
+### Competency Assessment
 
-| No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
-| 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ✅    | ☐    | ☐       |
-| 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | ☐    | ✅    | ☐       |
-| 3   | **Proactiveness**                   | Taking initiative, seeking out tasks without waiting for instructions                            | ✅    | ☐    | ☐       |
-| 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | ✅    | ☐    | ☐       |
-| 5   | **Discipline**                      | Adhering to schedules, rules, and work processes                                                 | ☐    | ☐    | ✅       |
-| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ☐    | ✅    | ☐       |
-| 7   | **Communication**                   | Presenting ideas and reporting work clearly                                                      | ☐    | ✅    | ☐       |
-| 8   | **Teamwork**                        | Working effectively with colleagues and participating in teams                                   | ✅    | ☐    | ☐       |
-| 9   | **Professional conduct**            | Respecting colleagues, partners, and the work environment                                        | ✅    | ☐    | ☐       |
-| 10  | **Problem-solving skills**          | Identifying problems, proposing solutions, and showing creativity                                | ☐    | ✅    | ☐       |
-| 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team                                  | ✅    | ☐    | ☐       |
-| 12  | **Overall**                         | General evaluation of the entire internship period                                               | ✅    | ☐    | ☐       |
+| Competency Area | Self-Rating | Brief Notes |
+| --- | --- | --- |
+| Technical Foundation | Good | Understand the roles and integration methods of various AWS services in the project. |
+| Fast Learning | Good | Able to quickly absorb workshop content and apply it flexibly to practical scenarios. |
+| Proactiveness | Fair | Self-driven in exploring and resolving issues, though sometimes needing extra time to find the optimal solution. |
+| Communication | Fair | Adept at reporting progress, but need to be more assertive when presenting personal ideas within a team. |
+| Documentation Skills | Good | Successfully delivered well-structured and clear worklogs, reports, and workshops. |
+| Problem Solving | Fair | Became more flexible and adept at network configuration, security handling, and API integration. |
 
-### Needs Improvement
+### Most Notable Progress
 
-* Strengthen discipline and strictly comply with the rules and regulations of the company or any organization  
-* Improve problem-solving thinking  
-* Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively
+- Shifted from simply following step-by-step guides to analytically understanding the underlying principles of each service.
+- Became much more proficient in comparing local and cloud environments and isolating issues through log analysis.
+- Developed a more mature product mindset: moving beyond just making the code work, to prioritizing security, scalability, and cost optimization.
+
+### Areas for Improvement
+
+- Need to build more confidence in communicating, presenting, and defending technical decisions in front of team members.
+- Want to optimize troubleshooting time by enhancing log reading skills and identifying root causes faster.
+- Aim to deepen my knowledge of CI/CD pipelines, system monitoring, and production security best practices.
+
+### Overall Conclusion
+
+This internship has been a crucial stepping stone in developing both my technical expertise and soft skills. While there is always room for improvement, I am proud of the progress I have made in self-learning, system deployment, and professional documentation, successfully meeting the rigorous demands of a professional working environment.

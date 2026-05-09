@@ -1,126 +1,79 @@
 ---
 title: "Event 1"
-date: 2024-01-01
+date: 2026-05-09
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Event 1 Insights
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+The first event I attended focused on highly practical topics for students and Freshers in the AI era. Below are the notes and lessons I summarized from the presentations of the four speakers:
 
-### Event Objectives
+### 1. "Brain-hacking" Tips to Get Addicted to Learning like Gaming/Social Media
+**(Speaker: Huynh Hoang Long)**
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+**The Problem:** Social media and games are engaging because they offer "instant rewards," stimulating curiosity with minimal effort. Meanwhile, studying shows slow results and requires a lot of energy, making the brain prone to procrastination.
 
-### Speakers
+**Core Solution:** Trick your brain with Dopamine (the chemical responsible for feelings of pleasure). Dopamine isn't just released when you receive a reward; it spikes the most when you *anticipate* an upcoming reward.
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+**3 Tips for Learning:**
+- **Create a "Dopamine Gamble":** Make a lucky draw box. After every 10-15 minutes of studying, draw a slip (it could be a small reward like watching a 5-minute video, or "better luck next time"). The curiosity of not knowing what you'll get stimulates the brain to keep studying.
+- **Use the Fear of Missing Out (Streaks):** Just like streaks on TikTok or Duolingo, mark your calendar every day you study (even for just 5-10 minutes). When the streak gets long enough, you'll feel "regretful" and afraid to break it, helping maintain discipline.
+- **Trick the Amygdala (Break Down Goals):** Don't force your brain to think about "having to study for 5 hours." Break it down into ultra-short milestones (e.g., today I will only study 1 AWS service, or study for 10 minutes). When you're not overwhelmed, it's much easier to start.
 
-### Key Highlights
+### 2. Optimizing Prompt Engineering for AI
+**(Speaker: Nguyen Tuan Thinh)**
 
-#### Identifying the drawbacks of legacy application architecture
+**The Problem:** Using generic prompts causes AI to return poor results, making it susceptible to "hallucinations" (inventing information) and wasting tokens (costs).
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+**The Perfect Prompt Formula (7 Components):**
+- **Role:** The AI's persona (e.g., You are an expert...).
+- **Instruction:** A clear task.
+- **Context:** Background information surrounding the problem.
+- **Input & Output Format:** The input data and desired output structure.
+- **Examples:** Providing sample cases for the AI to mimic.
+- **Constraints:** Limits/boundaries (what it shouldn't do).
 
-#### Transitioning to modern application architecture – Microservices
+**Advanced Techniques:** Use methods like Chain of Thought, Self-consistency, or Tree of Thoughts to help AI reason logically.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+**Practical Demo:** The speaker showcased an application architecture on AWS (using CloudFront, S3, API Gateway, Lambda, Bedrock...) and demoed an extension called Promptimizer, which automatically optimizes prompts before sending them to the AI.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+### 3. Mindset Orientation for Freshers/Students in the AI Era
+**(Speaker: Anh Khang)**
 
-#### Domain-Driven Design (DDD)
+**Will AI replace us?** AI is essentially an "Amplifier". If you are highly capable, it multiplies your productivity; but if you are weak and overly dependent on it, it will produce terrible results. You can use AI to find solutions, but you cannot "outsource" your own understanding and critical thinking to AI.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+**Focus on Core Values:**
+- **Foundation:** Frameworks and tools always change, but foundational knowledge remains.
+- **The Power of "Why":** Don't just focus on making the code run (What). Always ask yourself *why* you chose this technology, and if there is a more optimal way.
+- **Integrity:** Work honestly and handle edge cases thoroughly, even when no one is checking.
+- **Career Expectations:** Salary is important, but for a newcomer, a job should also be evaluated on 4 other factors: Experience, Network, Knowledge, and Advancement Opportunities. Accept mistakes as learning experiences and focus on long-term goals.
 
-#### Event-Driven Architecture
+### 4. BMM Method - Software Development with AI Agents
+**(Speaker: Chi Thao)**
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+**The Problem with Current AI Programming:** If you dump your entire idea into one chatbox and force AI to code, as the project grows, AI will forget the context (exceeding the context window) and generate unmaintainable "garbage code."
 
-#### Compute Evolution
+**The Solution - BMM Method:** Instead of cramming code, apply a professional software development process by breaking tasks down for different AI Agents acting in specific roles:
+- **PM Agent:** Brainstorms ideas with you and automatically drafts the PRD (Product Requirement Document).
+- **Architect Agent:** Reads the PRD and provides a standard system architecture design.
+- **Scrum Master Agent:** Breaks down the document into Epics and granular User Stories.
+- **Developer Agent:** Receives only 1 small, human-approved Story to start coding.
+- **Reviewer/QA Agent:** Tests the code and repeats the cycle until bugs are zero.
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+**Benefits:** Helps AI deeply understand narrow contexts, preventing feature mix-ups. Humans act as document managers and workflow approvers rather than constantly fixing AI's bad code.
 
-#### Amazon Q Developer
+---
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+### Event Participation Evidence
 
-### Key Takeaways
+![Event 1](/images/4-Event/event-1.png)
 
-#### Design Mindset
+![Event 1 Registration Confirmation Email](/images/4-Event/event1/registration-email.png)
+*Registration confirmation email for the event at the AWS office.*
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+![Onsite Photo at Event 1](/images/4-Event/event1/onsite-photo.png)
+*Photo taken at the event venue.*
 
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
-
-### Event Experience
-
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+> Overall, this was a highly meaningful event, helping me not only acquire technical knowledge but also develop a proper learning mindset in the AI era.

@@ -1,59 +1,28 @@
 ---
-title: "Worklog Tuần 1"
-date: 2024-01-01
+title: "Tuần 1 - Khởi tạo tài khoản và môi trường AWS"
+date: 2026-05-08
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu chính
+Trong tuần đầu tiên, mình dành phần lớn thời gian để làm quen với hệ sinh thái AWS, thiết lập tài khoản cá nhân và cấu hình các tiêu chuẩn bảo mật ban đầu để đảm bảo an toàn cho suốt kỳ thực tập.
 
-### Mục tiêu tuần 1:
+### Chi tiết công việc
+1. Đăng ký tài khoản AWS mới và kích hoạt các lớp bảo vệ cơ bản như MFA, kiểm tra thông tin thanh toán, chọn Region phù hợp.
+2. Thiết lập công cụ AWS Budgets nhằm chủ động giám sát chi phí, tránh các khoản phí phát sinh ngoài ý muốn.
+3. Trải nghiệm dịch vụ AWS Support và môi trường lập trình AWS Cloud9 để làm quen với cách thực hành thông qua tài liệu hướng dẫn.
+4. Tổng hợp kiến thức về IAM (Identity and Access Management), chú trọng vào việc phân quyền cho User, Group, Policy theo nguyên tắc cấp quyền tối thiểu (least privilege).
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Kết quả thu được
+- Môi trường AWS đã sẵn sàng và an toàn để triển khai các bài lab tiếp theo.
+- Nắm vững cách quản lý chi phí và bảo mật tài khoản cá nhân.
+- Xây dựng thói quen đọc hiểu tài liệu kỹ thuật và kiểm tra kỹ lưỡng từng bước cấu hình.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 1:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Tham khảo
+- [Cloud Development with AWS Cloud9](https://000049.awsstudygroup.com/)
+- [Access Management with AWS Identity and Access Management (IAM)](https://000002.awsstudygroup.com/)
+- [Managing Costs with AWS Budgets](https://000007.awsstudygroup.com/)
+- [Creating Your First AWS Account](https://000001.awsstudygroup.com/)
+- [Getting Help with AWS Support](https://000009.awsstudygroup.com/)

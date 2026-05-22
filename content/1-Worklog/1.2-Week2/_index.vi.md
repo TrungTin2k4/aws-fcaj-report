@@ -1,59 +1,27 @@
 ---
-title: "Worklog Tuần 2"
-date: 2024-01-01
-weight: 1
+title: "Tuần 2 - Trải nghiệm EC2, AWS CLI và S3"
+date: 2026-05-15
+weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu chính
+Tiếp nối tuần 1, tuần này mình tập trung thao tác với máy chủ ảo EC2, công cụ dòng lệnh AWS CLI và thực hiện bài thực hành đầu tiên: đưa một trang web tĩnh lên Amazon S3.
 
-### Mục tiêu tuần 2:
+### Chi tiết công việc
+1. Khởi tạo một EC2 instance, kết nối thành công qua giao thức SSH và làm quen với các lệnh cơ bản trên Linux.
+2. Cài đặt AWS CLI, cấu hình thông tin xác thực để có thể truy vấn tài nguyên và thực thi lệnh trực tiếp từ terminal.
+3. Tìm hiểu sâu hơn về IAM Role so với IAM User, ứng dụng thực tế bằng cách gán Role cho EC2 để gọi các dịch vụ AWS khác một cách bảo mật.
+4. Thiết lập một bucket trên Amazon S3 và thực hành public một trang web tĩnh nhỏ để hiểu cơ chế hosting cơ bản.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Kết quả thu được
+- Sử dụng thành thạo giao diện dòng lệnh và kết nối SSH vào EC2.
+- Ứng dụng thành công IAM Role, giải quyết được bài toán bảo mật cấp quyền giữa các dịch vụ.
+- Hình dung rõ nét hơn về quy trình hosting một website tĩnh trên nền tảng điện toán đám mây.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 2:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Tham khảo
+- [Static Website Hosting with Amazon S3](https://000057.awsstudygroup.com/)
+- [Instance Profiling with IAM Roles for EC2](https://000048.awsstudygroup.com/)
+- [Command Line Operations with AWS CLI](https://000011.awsstudygroup.com/)
+- [Compute Essentials with Amazon Elastic Compute Cloud (EC2)](https://000004.awsstudygroup.com/)

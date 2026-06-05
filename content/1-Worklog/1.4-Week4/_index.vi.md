@@ -1,59 +1,27 @@
 ---
-title: "Worklog Tuần 4"
-date: 2024-01-01
-weight: 1
+title: "Tuần 4 - Vận hành, Giám sát và Khả năng Mở rộng"
+date: 2026-05-29
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu chính
+Sau khi đã thiết lập được hạ tầng cơ bản, tuần này mình hướng đến khía cạnh quản trị và vận hành: làm sao để hệ thống luôn ổn định, tự động mở rộng khi cần và có khả năng chịu lỗi cao (High Availability).
 
-### Mục tiêu tuần 4:
+### Chi tiết công việc
+1. Làm quen với Amazon CloudWatch: theo dõi các thông số hoạt động (metrics) và cài đặt cảnh báo (alarms) tự động.
+2. Phân tích cơ chế EC2 Auto Scaling: xác định thời điểm cần scale, chỉ số dùng để scale và những cấu hình tiên quyết.
+3. Đối chiếu giữa Amazon EC2 và Amazon Lightsail để rút ra kết luận về việc lựa chọn dịch vụ theo độ phức tạp của dự án.
+4. Triển khai một lab nhỏ về thiết kế web có tính sẵn sàng cao, kết hợp các thành phần mạng, máy chủ và giám sát.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Kết quả thu được
+- Nâng cao tư duy vận hành thông qua việc chủ động giám sát thay vì thụ động chờ hệ thống lỗi.
+- Nắm bắt được nguyên lý mở rộng quy mô một cách tự động và hiệu quả.
+- Tự tin hơn khi bước vào giai đoạn xây dựng hệ thống thật ở các tuần sau.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 4:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Tham khảo
+- [Simplified Computing with Amazon Lightsail](https://000045.awsstudygroup.com/)
+- [Building Highly Available Web Applications](https://000101.awsstudygroup.com/)
+- [Monitoring with Amazon CloudWatch](https://000008.awsstudygroup.com/)
+- [Scaling Applications with EC2 Auto Scaling](https://000006.awsstudygroup.com/)

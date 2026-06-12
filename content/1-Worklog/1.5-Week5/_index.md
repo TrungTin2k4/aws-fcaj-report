@@ -1,57 +1,26 @@
 ---
-title: "Week 5 Worklog"
-date: 2024-01-01
-weight: 1
+title: "Week 5 - Capstone Kickoff and Data Modeling"
+date: 2026-06-07
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 5 Objectives:
+* Initiate the Full-stack Project Management App and assign team responsibilities.
+* Draft the overall AWS infrastructure diagram.
+* Construct the PostgreSQL database schema utilizing Prisma ORM.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+### Tasks to be implemented this week:
+| Day | Task | Start Date | Completion Date | Reference |
+| :--- | :--- | :--- | :--- | :--- |
+| Mon | - Conduct the Capstone Kick-off: Finalize the Tech Stack (Next.js, Node.js/Express, PostgreSQL).<br>- Assign roles: Frontend, Backend, and Cloud Operations. | 01/06/2026 | 01/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | - Design the AWS architecture blueprint:<br>&emsp; + VPC, EC2, RDS<br>&emsp; + S3, API Gateway<br>&emsp; + Cognito, Amplify | 02/06/2026 | 02/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | - Model the Database Schema (Entities: User, Project, Task, Team).<br>- Bootstrap the Node.js Backend and integrate **Prisma ORM**. | 03/06/2026 | 03/06/2026 | |
+| Thu | - Install PostgreSQL and PGAdmin locally for testing.<br>- Develop seed scripts to populate the database with mock Project and Task data. | 04/06/2026 | 04/06/2026 | |
+| Fri | - Team synchronization: Review the proposed architecture and Database Schema prior to the coding phase. | 05/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 5 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Established a clear division of labor and solidified the technology stack for the capstone project.
+* Produced a comprehensive AWS architecture diagram tailored to the application's needs.
+* Successfully defined the relational database schema using Prisma ORM and seeded the local database.

@@ -1,59 +1,27 @@
 ---
-title: "Worklog Tuần 8"
-date: 2024-01-01
-weight: 1
+title: "Tuần 8 - Đưa hệ thống Backend lên môi trường EC2"
+date: 2026-06-26
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu chính
+Tuần 8 là cột mốc quan trọng khi đưa backend từ môi trường thử nghiệm (local) lên đám mây (cloud). Ngoài việc cài đặt môi trường chạy mã nguồn, mình cũng giải quyết các bài toán về bảo mật giao tiếp (HTTPS) và duy trì tiến trình chạy nền.
 
-### Mục tiêu tuần 8:
+### Chi tiết công việc
+1. Tạo một máy chủ EC2 mới, điều chỉnh quy tắc Security Group, kết nối qua SSH và cài đặt nền tảng Node.js.
+2. Triển khai mã nguồn backend lên EC2, sử dụng PM2 để quản lý và duy trì tiến trình ứng dụng luôn hoạt động 24/7.
+3. Cập nhật các biến môi trường, đảm bảo máy chủ EC2 có thể kết nối thông suốt với cơ sở dữ liệu RDS qua Prisma.
+4. Sử dụng Amazon API Gateway làm lớp trung gian (proxy) bọc ngoài backend, giúp frontend giao tiếp bảo mật qua HTTPS (tránh lỗi mixed content).
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Kết quả thu được
+- Backend chính thức hoạt động trên môi trường cloud ổn định và độc lập.
+- Nắm rõ cách đóng gói, cấu hình môi trường và vận hành một ứng dụng thực tế trên Linux.
+- Giải quyết thành công rào cản kết nối bảo mật nhờ sự hỗ trợ của API Gateway.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 8:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Tham khảo
+- [Deploying Node.js Applications](https://000112.awsstudygroup.com/)
+- [Frontend Integration with API Gateway](https://000135.awsstudygroup.com/)
+- [Compute Essentials with Amazon Elastic Compute Cloud (EC2)](https://000004.awsstudygroup.com/)
+- [Command Line Operations with AWS CLI](https://000011.awsstudygroup.com/)

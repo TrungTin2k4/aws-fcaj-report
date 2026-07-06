@@ -1,59 +1,28 @@
 ---
-title: "Worklog Tuần 9"
-date: 2024-01-01
-weight: 1
+title: "Tuần 9 - Quản lý ảnh và xác thực tài khoản Cognito"
+date: 2026-07-03
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu chính
+Trải nghiệm người dùng được nâng cấp đáng kể trong tuần này với 2 tính năng chính: quản lý ảnh đại diện / ảnh đính kèm và xây dựng hệ thống đăng ký / đăng nhập an toàn.
 
-### Mục tiêu tuần 9:
+### Chi tiết công việc
+1. Thiết lập Amazon S3 bucket làm nơi lưu trữ các tập tin tĩnh (hình ảnh), sau đó cập nhật lại các đường dẫn hiển thị trên frontend.
+2. Khởi tạo dịch vụ Amazon Cognito User Pool, thiết lập App Client cùng các quy tắc xác thực tài khoản (độ dài mật khẩu, email verification).
+3. Sử dụng thư viện Amplify UI Components để tích hợp nhanh giao diện Đăng ký / Đăng nhập, tối ưu hóa thời gian phát triển frontend.
+4. Kiểm thử luồng gửi email xác thực và cấu hình cách frontend lấy, lưu trữ token (session) sau khi đăng nhập thành công.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Kết quả thu được
+- Hệ thống lưu trữ hình ảnh trên S3 hoạt động trơn tru, giúp tách biệt dữ liệu tĩnh khỏi máy chủ backend.
+- Luồng xác thực tài khoản được thiết lập bài bản, tăng cường độ bảo mật cho ứng dụng quản lý dự án.
+- Sản phẩm ngày càng hoàn thiện, tiến gần hơn tới tiêu chuẩn của một ứng dụng thương mại.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 9:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Tham khảo
+- [Serverless Storage and Auth with AWS Amplify](https://000134.awsstudygroup.com/)
+- [User Authentication with Amazon Cognito](https://000081.awsstudygroup.com/)
+- [Single Page Application Authentication](https://000055.awsstudygroup.com/)
+- [Cross-Domain Authentication with Amazon Cognito](https://000141.awsstudygroup.com/)
+- [Static Website Hosting with Amazon S3](https://000057.awsstudygroup.com/)

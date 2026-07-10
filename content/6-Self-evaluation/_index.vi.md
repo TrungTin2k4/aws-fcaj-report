@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-Trong suốt khóa thực tập tại **FCAJ Cloud Journey** diễn ra từ **04/05/2026** đến **08/07/2026**, tôi đã có dịp trải nghiệm quá trình từ việc nắm bắt các nền tảng AWS cơ bản thông qua workshop cho đến khi tự tay triển khai một dự án full-stack thực tế. Hành trình này không đơn thuần chỉ là việc làm quen với các dịch vụ độc lập trên Cloud, mà quan trọng hơn, nó đã rèn luyện cho tôi tư duy kết hợp các công nghệ đó thành một kiến trúc hoàn chỉnh, từ khâu triển khai, vận hành cho đến việc lập báo cáo chi tiết.
+Trong suốt khóa thực tập tại **FCAJ Cloud Journey** diễn ra từ **04/05/2026** đến **25/07/2026**, tôi đã có dịp trải nghiệm quá trình từ việc nắm bắt các nền tảng AWS cơ bản thông qua workshop cho đến khi tự tay triển khai một dự án full-stack thực tế. Hành trình này không đơn thuần chỉ là việc làm quen với các dịch vụ độc lập trên Cloud, mà quan trọng hơn, nó đã rèn luyện cho tôi tư duy kết hợp các công nghệ đó thành một kiến trúc hoàn chỉnh, từ khâu triển khai, vận hành cho đến việc lập báo cáo chi tiết.
 
 ### Những mặt đã làm tốt
 

@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-During my internship at **FCAJ Cloud Journey** from **04/05/2026** to **08/07/2026**, I had the valuable opportunity to progress from learning fundamental AWS concepts through workshops to practically deploying a full-stack project. This journey was not just about getting familiar with individual cloud services; more importantly, it trained me to integrate these services into a comprehensive, robust architecture, covering everything from deployment and operations to detailed documentation.
+During my internship at **FCAJ Cloud Journey** from **04/05/2026** to **25/07/2026**, I had the valuable opportunity to progress from learning fundamental AWS concepts through workshops to practically deploying a full-stack project. This journey was not just about getting familiar with individual cloud services; more importantly, it trained me to integrate these services into a comprehensive, robust architecture, covering everything from deployment and operations to detailed documentation.
 
 ### What I Did Well
 

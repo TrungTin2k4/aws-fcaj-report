@@ -7,7 +7,7 @@ pre: " <b> 1.10. </b> "
 ---
 
 ### Mục tiêu chính
-Trong chặng cuối từ **06/07/2026** đến **08/07/2026**, mục tiêu tối thượng là hoàn thiện sản phẩm ở mức ổn định nhất, xuất bản ứng dụng ra công chúng (public) và chuẩn bị tài liệu báo cáo tổng kết.
+Trong chặng cuối từ **06/07/2026** đến **25/07/2026**, mục tiêu tối thượng là hoàn thiện sản phẩm ở mức ổn định nhất, xuất bản ứng dụng ra công chúng (public) và chuẩn bị tài liệu báo cáo tổng kết.
 
 ### Chi tiết công việc
 1. Viết một AWS Lambda function làm trigger cho Cognito: tự động đồng bộ thông vị user mới vào database (PostgreSQL) ngay sau khi xác thực thành công.

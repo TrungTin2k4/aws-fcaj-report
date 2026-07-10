@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-This section documents my entire internship journey spanning **10 weeks**, starting from **04/05/2026** and concluding on **08/07/2026**. The content is organized chronologically by week, clearly illustrating the learning curve, the step-by-step deployment of the AWS project, and the final documentation phase.
+This section documents my entire internship journey spanning **10 weeks**, starting from **04/05/2026** and concluding on **25/07/2026**. The content is organized chronologically by week, clearly illustrating the learning curve, the step-by-step deployment of the AWS project, and the final documentation phase.
 
 Throughout the weeks, I have referenced specific workshops from the AWS Study Group. This helps trace the learning sources and demonstrates how theoretical concepts were applied to solve the real-world challenges in my Capstone Project.
 

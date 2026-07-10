@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-Quá trình thực tập thực tế kéo dài **10 tuần**, khởi động từ **04/05/2026** và chính thức khép lại vào ngày **08/07/2026**. Để người đọc tiện theo dõi, toàn bộ nội dung trong mục này được chia thành từng tuần, phản ánh tiến trình học tập, xây dựng dự án trên đám mây AWS và hoàn thiện bộ hồ sơ thực tập.
+Quá trình thực tập thực tế kéo dài **10 tuần**, khởi động từ **04/05/2026** và chính thức khép lại vào ngày **25/07/2026**. Để người đọc tiện theo dõi, toàn bộ nội dung trong mục này được chia thành từng tuần, phản ánh tiến trình học tập, xây dựng dự án trên đám mây AWS và hoàn thiện bộ hồ sơ thực tập.
 
 Xuyên suốt các tuần, mình có đối chiếu và đính kèm danh sách các bài workshop từ cộng đồng AWS Study Group. Việc này giúp làm rõ nguồn tham khảo và chỉ ra cách mình vận dụng kiến thức lý thuyết vào các bài toán thực tiễn của đồ án.
 

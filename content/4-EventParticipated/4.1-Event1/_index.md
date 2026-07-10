@@ -68,7 +68,7 @@ The first event I attended focused on highly practical topics for students and F
 
 ### Event Participation Evidence
 
-![Event 1](/images/4-Event/event-1.png)
+![Event 1](/images/4-Event/event1/anh.jpg)
 
 ![Event 1 Registration Confirmation Email](/images/4-Event/event1/registration-email.png)
 *Registration confirmation email for the event at the AWS office.*

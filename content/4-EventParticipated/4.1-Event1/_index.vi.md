@@ -68,7 +68,7 @@ Sự kiện đầu tiên mình tham gia xoay quanh các chủ đề cực kỳ t
 
 ### Ảnh minh chứng tham gia sự kiện
 
-![Event 1](/images/4-Event/event-1.png)
+![Event 1](/images/4-Event/event1/anh.jpg)
 
 ![Email xác nhận đăng ký Event 1](/images/4-Event/event1/registration-email.png)
 *Email xác nhận đăng ký tham gia sự kiện tại văn phòng AWS.*

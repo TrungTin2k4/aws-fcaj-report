@@ -1,5 +1,5 @@
 baseURL = "https://trungtin2k4.github.io/aws-fcaj-report/"
-relativeURLs = false
+relativeURLs = true
 canonifyURLs = false
 defaultContentLanguage = "en"
 

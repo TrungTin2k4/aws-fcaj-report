@@ -87,22 +87,16 @@ Sự kiện thứ hai mình tham gia tập trung sâu hơn vào các bài toán 
 ![Vé QR tham gia Event 2](/images/4-Event/event2/ticket-qr.png)
 *Mã QR check-in sự kiện tại Bitexco Financial Tower.*
 
-![Không gian sự kiện Event 2](/images/4-Event/event2/event-room.png)
-*Toàn cảnh khu vực tổ chức và người tham dự trước giờ bắt đầu chương trình.*
-
-![Ảnh người tham dự Event 2](/images/4-Event/event2/audience-photo.png)
+![Ảnh người tham dự Event 2](/images/4-Event/event2/audience-photo.jpg)
 *Không khí theo dõi phần trình bày tại sự kiện.*
 
-![Slide Proposed Deployment Approach](/images/4-Event/event2/deployment-approach-slide.png)
-*Minh họa nội dung chia sẻ về hướng triển khai hệ thống ở mức enterprise.*
-
-![Slide Basic Deployment Flow](/images/4-Event/event2/deployment-flow-slide.png)
+![Slide Basic Deployment Flow](/images/4-Event/event2/deployment-flow-slide.jpg)
 *Sơ đồ flow triển khai cơ bản được trình bày trong workshop.*
 
-![Slide Workshop Exercises](/images/4-Event/event2/workshop-exercises-slide.png)
+![Slide Workshop Exercises](/images/4-Event/event2/workshop-exercises-slide.jpg)
 *Nội dung các bài tập thực hành đi kèm trong buổi chia sẻ.*
 
-![Ghi chú whiteboard tại Event 2](/images/4-Event/event2/whiteboard-note.png)
+![Ghi chú whiteboard tại Event 2](/images/4-Event/event2/whiteboard-note.jpg)
 *Một số từ khóa trọng tâm được nhấn mạnh trong phần thảo luận: Security, Reliability, Scalable.*
 
 > Nhìn chung, sự kiện mang lại góc nhìn thực tế, sâu sắc hơn về kiến trúc AI và điện toán đám mây cho quy mô doanh nghiệp.

@@ -87,22 +87,16 @@ The second event I attended focused more deeply on practical enterprise problems
 ![Event 2 QR Ticket](/images/4-Event/event2/ticket-qr.png)
 *QR code for event check-in at Bitexco Financial Tower.*
 
-![Event 2 Venue](/images/4-Event/event2/event-room.png)
-*Panoramic view of the event area and attendees before the program started.*
-
-![Event 2 Audience Photo](/images/4-Event/event2/audience-photo.png)
+![Event 2 Audience Photo](/images/4-Event/event2/audience-photo.jpg)
 *The atmosphere during the presentations.*
 
-![Proposed Deployment Approach Slide](/images/4-Event/event2/deployment-approach-slide.png)
-*Illustration of the enterprise-level system deployment approach.*
-
-![Basic Deployment Flow Slide](/images/4-Event/event2/deployment-flow-slide.png)
+![Basic Deployment Flow Slide](/images/4-Event/event2/deployment-flow-slide.jpg)
 *Basic deployment flow diagram presented in the workshop.*
 
-![Workshop Exercises Slide](/images/4-Event/event2/workshop-exercises-slide.png)
+![Workshop Exercises Slide](/images/4-Event/event2/workshop-exercises-slide.jpg)
 *Content of practical exercises included in the session.*
 
-![Whiteboard Notes at Event 2](/images/4-Event/event2/whiteboard-note.png)
+![Whiteboard Notes at Event 2](/images/4-Event/event2/whiteboard-note.jpg)
 *Key terms highlighted during discussions: Security, Reliability, Scalable.*
 
 > Overall, the event provided a highly practical and profound perspective on AI architecture and cloud computing at the enterprise scale.
